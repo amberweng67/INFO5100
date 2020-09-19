@@ -1,4 +1,4 @@
-# ///Case 1///
+# Case 1
 ## Design a course management system (Like Canvas);
 
 Teacher 
@@ -21,7 +21,7 @@ Online Platform
 Data: course
 Behavior: checkCredentials, deliverNotice, deliverHomeworkToStudent, deliverHomeworkToTeacher, deliverGrade, disableUploadHomework   
 
-///Sequence of invoking behaviors on objects///
+Sequence of invoking behaviors on objects
 ```
 Student amber;
 OnlinePlatform canvas;
@@ -42,7 +42,7 @@ if 5100 hasHomework
 else 5100 noHomework
 ```
 
-# ///Case 2///
+# Case 2
 ## Design a pet adoption platform
 Pet
 Data: name, breed, color, sex, health, adoptionFee 
@@ -60,7 +60,7 @@ Pet Provider
 Data: name
 Behavior: reviewApplication, sendConfirmation, listPets, listRequirement, receiveAdoptionFee, approveApplication, cancelApplication 
 
-///Sequence of invoking behaviors on objects///
+Sequence of invoking behaviors on objects
 ```
 Adopter amber;
 PetProvider paws;
@@ -83,11 +83,8 @@ else
  paws.cancelApplication();
 ```
 
-# ///Case 3///
+# Case 3
 ## Design an app to book airline ticket.
-<!-- Travel Agency
-Data: 
-Behavior: -->
 
 Airline 
 Data: flights, 
@@ -105,7 +102,7 @@ TicketPlatform
 Data: flights
 Behavior: sendReceipt, checkOut, refund,
 
-///Sequence of invoking behaviors on objects///
+Sequence of invoking behaviors on objects
 ```
 Traveler amber;
 TicketPlatform expedia;
@@ -122,7 +119,7 @@ if expedia hasFlight
 else expedia hasNoFlight
 ```
 
-# ///Case 4///
+# Case 4
 ## Design a course registration platform.
 
 Teacher 
@@ -141,7 +138,7 @@ RegistrationPlatform
 Data: courses
 Behavior: confirmRegistration, confirmDrop, sendConfirmation
 
-///Sequence of invoking behaviors on objects///
+Sequence of invoking behaviors on objects
 ```
 Student amber;
 RegistrationPlatform myNEU;
@@ -157,7 +154,7 @@ if myNEU hasSeat and amber hasMeetPrerequisitesOfCourse
 else course hasNoSeat or amber hasNotTakenPrerequisites
 ```
 
-# ///Case 5///
+# Case 5
 ## Order food in a food delivery app.(Like Uber Eats)
 Customer
 Data: emailAddress, name, loginCredentials, address, phone, creditCard
@@ -183,7 +180,7 @@ DeliveryApp
 Data: restaurants
 Behavior: sendReceipt, sendOrderToRestaurant, cancelOrder, refund
 
-///Sequence of invoking behaviors on objects///
+Sequence of invoking behaviors on objects
 ```
 Customer amber;
 DeliveryApp uberEats;
